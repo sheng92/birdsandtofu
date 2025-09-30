@@ -3,7 +3,7 @@
     <title>birds and tofu</title>
     <link href="https://birdsandtofu.com/feed.xml" rel="self" />
     <link href="https://birdsandtofu.com" />
-    <updated>2025-09-30T15:32:18-04:00</updated>
+    <updated>2025-09-30T17:56:28-04:00</updated>
     <author>
         <name>Sheng Jiang</name>
     </author>
@@ -16,6 +16,7 @@
         </author>
         <link href="https://birdsandtofu.com/fall-flycatcher-frustrations/"/>
         <id>https://birdsandtofu.com/fall-flycatcher-frustrations/</id>
+            <category term="us"/>
             <category term="georgia"/>
             <category term="fall"/>
             <category term="birding"/>
