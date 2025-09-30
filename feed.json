@@ -1,0 +1,29 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "birds and tofu",
+    "description": "",
+    "home_page_url": "https://birdsandtofu.com",
+    "feed_url": "https://birdsandtofu.com/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Sheng Jiang"
+    },
+    "items": [
+        {
+            "id": "https://birdsandtofu.com/fall-flycatcher-frustrations/",
+            "url": "https://birdsandtofu.com/fall-flycatcher-frustrations/",
+            "title": "Fall Flycatcher Frustrations",
+            "summary": "<h4>A tale of two flycatchers</h4>\n<p>It began when I took a simple photo:</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://birdsandtofu.com/media/posts/1/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans.jpg\" alt=\"Picture of a Yellow-Bellied Flycatcher perched on a branch in undergrowth.\" width=\"1500\" height=\"1000\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://birdsandtofu.com/media/posts/1/responsive/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans-xs.jpg 640w ,https://birdsandtofu.com/media/posts/1/responsive/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans-sm.jpg 768w ,https://birdsandtofu.com/media/posts/1/responsive/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans-md.jpg 1024w ,https://birdsandtofu.com/media/posts/1/responsive/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans-lg.jpg 1366w ,https://birdsandtofu.com/media/posts/1/responsive/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans-xl.jpg 1600w ,https://birdsandtofu.com/media/posts/1/responsive/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans-2xl.jpg 1920w\"></figure>\n<p>Well - it was more a series of ~500 photos. But either way - it was my first time getting such a close look at a flycatcher. I knew that empids (short for <em>Empidonax</em>, the genus these species fall under) were a tricky subject, but getting an accurate ID and having it approved turned out to be a bit harder than I had expected.</p>\n",
+            "author": {
+                "name": "Sheng Jiang"
+            },
+            "tags": [
+                   "georgia",
+                   "fall",
+                   "birding"
+            ],
+            "date_published": "2025-09-28T21:35:55-04:00",
+            "date_modified": "2025-09-30T15:32:18-04:00"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>birds and tofu</title>
+    <link href="https://birdsandtofu.com/feed.xml" rel="self" />
+    <link href="https://birdsandtofu.com" />
+    <updated>2025-09-30T15:32:18-04:00</updated>
+    <author>
+        <name>Sheng Jiang</name>
+    </author>
+    <id>https://birdsandtofu.com</id>
+
+    <entry>
+        <title>Fall Flycatcher Frustrations</title>
+        <author>
+            <name>Sheng Jiang</name>
+        </author>
+        <link href="https://birdsandtofu.com/fall-flycatcher-frustrations/"/>
+        <id>https://birdsandtofu.com/fall-flycatcher-frustrations/</id>
+            <category term="georgia"/>
+            <category term="fall"/>
+            <category term="birding"/>
+
+        <updated>2025-09-28T21:35:55-04:00</updated>
+            <summary>
+                <![CDATA[
+                    <h4>A tale of two flycatchers</h4>
+<p>It began when I took a simple photo:</p>
+<figure class="post__image"><img loading="lazy"  src="https://birdsandtofu.com/media/posts/1/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans.jpg" alt="Picture of a Yellow-Bellied Flycatcher perched on a branch in undergrowth." width="1500" height="1000" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://birdsandtofu.com/media/posts/1/responsive/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans-xs.jpg 640w ,https://birdsandtofu.com/media/posts/1/responsive/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans-sm.jpg 768w ,https://birdsandtofu.com/media/posts/1/responsive/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans-md.jpg 1024w ,https://birdsandtofu.com/media/posts/1/responsive/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans-lg.jpg 1366w ,https://birdsandtofu.com/media/posts/1/responsive/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans-xl.jpg 1600w ,https://birdsandtofu.com/media/posts/1/responsive/20250922-DSCF1297-DxO_DeepPRIME-XD3-X-Trans-2xl.jpg 1920w"></figure>
+<p>Well - it was more a series of ~500 photos. But either way - it was my first time getting such a close look at a flycatcher. I knew that empids (short for <em>Empidonax</em>, the genus these species fall under) were a tricky subject, but getting an accurate ID and having it approved turned out to be a bit harder than I had expected.</p>
+
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+</feed>
