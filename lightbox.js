@@ -19,32 +19,40 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Show image + caption
+    // Show image + caption with fade
     function showImage(index) {
         const figure = figures[index];
         const img = figure.querySelector('img');
         const caption = figure.querySelector('figcaption');
 
+        // Fade out both
         lightboxImg.style.opacity = 0;
+        lightboxCaption.style.opacity = 0;
+
         setTimeout(() => {
+            // Clear old content (prevents flashing)
+            lightboxImg.src = "";
+            lightboxCaption.textContent = "";
+
+            // Insert new content
             lightboxImg.src = img.src;
             lightboxImg.alt = img.alt;
             lightboxCaption.textContent = caption ? caption.textContent : "";
+
+            // Fade back in
             lightboxImg.style.opacity = 1;
-        }, 200);
+            lightboxCaption.style.opacity = 1;
+        }, 200); // match your CSS transition timing
     }
 
     // Navigation
     prevBtn.addEventListener('click', () => {
         currentIndex = (currentIndex - 1 + figures.length) % figures.length;
-        lightboxImg.src = "";
-        lightboxCaption.textContent = "";
         showImage(currentIndex);
     });
+
     nextBtn.addEventListener('click', () => {
         currentIndex = (currentIndex + 1) % figures.length;
-        lightboxImg.src = "";
-        lightboxCaption.textContent = "";
         showImage(currentIndex);
     });
 
@@ -55,13 +63,15 @@ document.addEventListener("DOMContentLoaded", () => {
             lightboxImg.src = "";
             lightboxCaption.textContent = "";
             currentIndex = -1;
-        }, 300);
+        }, 300); // wait for fade-out
     }
 
     closeBtn.addEventListener('click', closeLightbox);
+
     lightbox.addEventListener('click', (e) => {
         if (e.target === lightbox) closeLightbox();
     });
+
     document.addEventListener('keydown', (e) => {
         if (!lightbox.classList.contains('show')) return;
         if (e.key === "Escape") closeLightbox();
