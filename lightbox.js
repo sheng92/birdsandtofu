@@ -37,10 +37,14 @@ document.addEventListener("DOMContentLoaded", () => {
     // Navigation
     prevBtn.addEventListener('click', () => {
         currentIndex = (currentIndex - 1 + figures.length) % figures.length;
+        lightboxImg.src = "";
+        lightboxCaption.textContent = "";
         showImage(currentIndex);
     });
     nextBtn.addEventListener('click', () => {
         currentIndex = (currentIndex + 1) % figures.length;
+        lightboxImg.src = "";
+        lightboxCaption.textContent = "";
         showImage(currentIndex);
     });
 
